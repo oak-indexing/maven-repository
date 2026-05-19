@@ -3,21 +3,21 @@
   <groupId>com.adobe.aem.indexing</groupId>
   <artifactId>expanded-page-index-indexes</artifactId>
   <versioning>
-    <lastUpdated>20260519154418</lastUpdated>
+    <lastUpdated>20260519155042</lastUpdated>
     <snapshot>
-      <timestamp>20260519.154418</timestamp>
+      <timestamp>20260519.155042</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20260519.154418-1</value>
-        <updated>20260519154418</updated>
+        <value>0.0.0-20260519.155042-1</value>
+        <updated>20260519155042</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>zip</extension>
-        <value>0.0.0-20260519.154418-1</value>
-        <updated>20260519154418</updated>
+        <value>0.0.0-20260519.155042-1</value>
+        <updated>20260519155042</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
