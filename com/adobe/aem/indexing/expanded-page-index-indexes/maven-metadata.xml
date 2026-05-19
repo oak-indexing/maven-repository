@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.adobe.aem.indexing</groupId>
+  <artifactId>expanded-page-index-indexes</artifactId>
+  <versioning>
+    <versions>
+      <version>1.4.2-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20260519095622</lastUpdated>
+  </versioning>
+</metadata>
