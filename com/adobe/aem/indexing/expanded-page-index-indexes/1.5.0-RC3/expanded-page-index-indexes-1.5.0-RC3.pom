@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.adobe.aem.indexing</groupId>
+        <artifactId>expanded-page-index-parent</artifactId>
+        <version>1.5.0-RC3</version>
+    </parent>
+
+    <artifactId>expanded-page-index-indexes</artifactId>
+    <packaging>content-package</packaging>
+
+    <name>AEM Expanded Page Index - Oak Index Definitions</name>
+    <description>Oak index definitions package for the expanded-page-index bundle</description>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.jackrabbit</groupId>
+                <artifactId>filevault-package-maven-plugin</artifactId>
+                <extensions>true</extensions>
+                <configuration>
+                    <packageType>application</packageType>
+                    <allowIndexDefinitions>true</allowIndexDefinitions>
+                    <properties>
+                        <cloudManagerTarget>none</cloudManagerTarget>
+                        <noIntermediateSaves>true</noIntermediateSaves>
+                    </properties>
+                    <filters>
+                        <filter><root>/oak:index/cqPageMirror-1-custom-1</root></filter>
+                        <filter><root>/oak:index/cqFragmentMirror-1-custom-1</root></filter>
+                        <filter><root>/oak:index/cqSiteSearch-1-custom-1</root></filter>
+                    </filters>
+                    <skipValidation>true</skipValidation>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
