@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.adobe.aem.indexing</groupId>
+        <artifactId>expanded-page-index-parent</artifactId>
+        <version>1.5.3</version>
+    </parent>
+
+    <artifactId>expanded-page-index-setup</artifactId>
+    <packaging>content-package</packaging>
+
+    <name>AEM Expanded Page Index - Setup Package</name>
+    <description>Service user and repoinit OSGi configs for the Expanded Page Index bundle. Embed in your all-package for Cloud Manager deployment.</description>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.jackrabbit</groupId>
+                <artifactId>filevault-package-maven-plugin</artifactId>
+                <extensions>true</extensions>
+                <configuration>
+                    <group>com.adobe.aem.indexing</group>
+                    <packageType>mixed</packageType>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
