@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.adobe.aem.indexing</groupId>
-  <artifactId>expanded-page-index-parent</artifactId>
+  <artifactId>expanded-page-index-setup</artifactId>
   <versioning>
     <versions>
       <version>0.0.0-SNAPSHOT</version>

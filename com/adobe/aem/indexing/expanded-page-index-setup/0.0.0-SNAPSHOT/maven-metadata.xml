@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>com.adobe.aem.indexing</groupId>
-  <artifactId>expanded-page-index</artifactId>
+  <artifactId>expanded-page-index-setup</artifactId>
   <versioning>
     <lastUpdated>20260601065319</lastUpdated>
     <snapshot>
@@ -15,7 +15,7 @@
         <updated>20260601065319</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>jar</extension>
+        <extension>zip</extension>
         <value>0.0.0-20260601.065319-1</value>
         <updated>20260601065319</updated>
       </snapshotVersion>
