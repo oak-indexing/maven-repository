@@ -3,16 +3,16 @@
   <groupId>com.adobe.aem.indexing</groupId>
   <artifactId>expanded-page-index-parent</artifactId>
   <versioning>
-    <lastUpdated>20260804144909</lastUpdated>
+    <lastUpdated>20260814073024</lastUpdated>
     <snapshot>
-      <timestamp>20260804.144909</timestamp>
-      <buildNumber>9</buildNumber>
+      <timestamp>20260814.073024</timestamp>
+      <buildNumber>10</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20260804.144909-9</value>
-        <updated>20260804144909</updated>
+        <value>0.0.0-20260814.073024-10</value>
+        <updated>20260814073024</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
