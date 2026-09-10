@@ -3,7 +3,7 @@
   <groupId>com.adobe.aem.indexing</groupId>
   <artifactId>expanded-page-index-parent</artifactId>
   <versioning>
-    <release>1.5.10-PREVIEW-3</release>
+    <release>1.5.10-PREVIEW-4</release>
     <versions>
       <version>1.4.9</version>
       <version>1.4.15</version>
@@ -23,7 +23,8 @@
       <version>1.5.9</version>
       <version>1.5.10-PREVIEW-2</version>
       <version>1.5.10-PREVIEW-3</version>
+      <version>1.5.10-PREVIEW-4</version>
     </versions>
-    <lastUpdated>20260910072916</lastUpdated>
+    <lastUpdated>20260910073443</lastUpdated>
   </versioning>
 </metadata>
